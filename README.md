@@ -160,7 +160,7 @@ Test the endpoint as described above.
 
 ---
 
-### 4. **Deploy to Kubernetes (Optional)**
+### 4. **Deploy to Kubernetes **
 
 1. **Push the Docker Image:**
    ```bash
