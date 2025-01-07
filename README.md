@@ -1,4 +1,4 @@
-# Deploying Falcon-7B-Instruct Model
+# Deploying Falcon-7B-Instruct Model on a AKS Cluster
 
 This document provides detailed instructions for setting up, running, and deploying the tiiuae/Falcon-7B-Instruct model for inference. The steps include downloading the model, creating an inference API, containerizing the application, and deploying it to production. 
 
