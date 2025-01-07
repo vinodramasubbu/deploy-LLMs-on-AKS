@@ -168,6 +168,8 @@ Test the endpoint as described above.
    docker push <your_registry>/falcon-inference:latest
    ```
 
+   ![Falcon Image in ACR](falcon-image-in-ACR.png)
+
 2. **Create Kubernetes Deployment:**
 
    Create a `deployment.yaml` file:
@@ -241,6 +243,7 @@ You have successfully set up and deployed the Falcon-7B-Instruct model for infer
 ![GPU Node Pool](GPU_node_pool.png)
 ![GPU Node Pool](GPU_node_pool1.png)
 ![GPU Node Pool Running Falcon LLM](GPU_node_pool-running-falcom.png)
+![Falcon Container Logs](GPU_node_pool-running-falcon-logs)
 
 
 ### LOGS
