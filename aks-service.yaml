@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: falcon-inference
+  annotations:
+    service.beta.kubernetes.io/azure-load-balancer-internal: "false"  # Optional: Ensures the LoadBalancer is external
+spec:
+  selector:
+    app: falcon-inference
+  ports:
+  - protocol: TCP
+    port: 80             # External port to access the service
+    targetPort: 8000     # Internal port where your application listens
+  type: LoadBalancer
