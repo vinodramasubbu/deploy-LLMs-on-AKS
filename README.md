@@ -249,7 +249,7 @@ You have successfully set up and deployed the Falcon-7B-Instruct model for infer
 ### LOGS
 
 ```yaml
-C:\LLM_as_Docker\LLAMA321B>kubectl get svc
+C:\>kubectl get svc
 NAME               TYPE           CLUSTER-IP   EXTERNAL-IP      PORT(S)        AGE
 falcon-inference   LoadBalancer   10.0.69.63   135.232.66.112   80:31489/TCP   12m
 kubernetes         ClusterIP      10.0.0.1     <none>           443/TCP        44d
@@ -281,8 +281,7 @@ Events:
   Normal  EnsuredLoadBalancer   10m                   service-controller  Ensured load balancer
   Normal  UpdatedLoadBalancer   8m50s (x2 over 9m5s)  service-controller  Updated load balancer with new hosts
 
-C:\LLM_as_Docker\LLAMA321B>
-C:\LLM_as_Docker\LLAMA321B>kubectl logs falcon-inference-6f65cd8799-cdnq7
+C:\>kubectl logs falcon-inference-6f65cd8799-cdnq7
 /opt/conda/lib/python3.10/site-packages/torchvision/datapoints/__init__.py:12: UserWarning: The torchvision.datapoints and torchvision.transforms.v2 namespaces are still Beta. While we do not expect major breaking changes, some APIs may still change according to user feedback. Please submit any feedback you may have in this issue: https://github.com/pytorch/vision/issues/6753, and you can also check out https://github.com/pytorch/vision/issues/7319 to learn more about the APIs that we suspect might involve future changes. You can silence this warning by calling torchvision.disable_beta_transforms_warning().
   warnings.warn(_BETA_TRANSFORMS_WARNING)
 /opt/conda/lib/python3.10/site-packages/torchvision/transforms/v2/__init__.py:54: UserWarning: The torchvision.datapoints and torchvision.transforms.v2 namespaces are still Beta. While we do not expect major breaking changes, some APIs may still change according to user feedback. Please submit any feedback you may have in this issue: https://github.com/pytorch/vision/issues/6753, and you can also check out https://github.com/pytorch/vision/issues/7319 to learn more about the APIs that we suspect might involve future changes. You can silence this warning by calling torchvision.disable_beta_transforms_warning().
