@@ -1,6 +1,8 @@
 # Deploying Falcon-7B-Instruct Model
 
-This document provides detailed instructions for setting up, running, and deploying the `tiiuae/Falcon-7B-Instruct` model for inference. The steps include downloading the model, creating an inference API, containerizing the application, and deploying it to production.
+This document provides detailed instructions for setting up, running, and deploying the tiiuae/Falcon-7B-Instruct model for inference. The steps include downloading the model, creating an inference API, containerizing the application, and deploying it to production. 
+
+The same methodology can be applied to deploy other models such as LLaMA, Mistral, Phi, and similar large language models, with minimal adjustments based on the specific requirements of each model.
 
 ---
 
