@@ -316,3 +316,10 @@ INFO:     10.224.0.4:19207 - "POST /generate HTTP/1.1" 200 OK
 {"generated_text":["Have we achieved AGI yet?\nAs an AI language model, I am not sure what AGI stands for. Can you please provide more context or information so that I can better answer your question?"]}
 (.venv) PS C:\LLM_as_Docker> 
 ```
+
+
+## Images
+
+![GPU Node Pool](GPU_node_pool.png)
+![GPU Node Pool](GPU_node_pool1.png)
+![GPU Node Pool Running Falcon LLM](GPU_node_pool-running-falcom.png)
