@@ -313,15 +313,13 @@ INFO:     10.224.0.4:19207 - "POST /generate HTTP/1.1" 200 OK
 ```
 
 ```yaml
-(.venv) PS C:\LLM_as_Docker> 
-(.venv) PS C:\LLM_as_Docker> curl -X POST "http://135.232.66.112/generate"  -H "Content-Type: application/json"  -d '{"prompt": "What is AI", "max_length": 200, "num_return_sequences": 1}'            
+ curl -X POST "http://135.232.66.112/generate"  -H "Content-Type: application/json"  -d '{"prompt": "What is AI", "max_length": 200, "num_return_sequences": 1}' 
 {"generated_text":["What is AI?\nAI stands for Artificial Intelligence. It is a branch of computer science that focuses on creating intelligent machines that can perform tasks that typically require human intelligence. AI is used in a variety of applications, such as robotics, machine learning, and natural language processing."]}
-(.venv) PS C:\LLM_as_Docker> 
-(.venv) PS C:\LLM_as_Docker> curl -X POST "http://135.232.66.112/generate"  -H "Content-Type: application/json"  -d '{"prompt": "What is AGI", "max_length": 200, "num_return_sequences": 1}'
-{"generated_text":["What is AGI?\nAGI stands for Advanced Graphics Interface. It is a programming interface that allows developers to create graphics applications and games. It is a powerful tool that can be used to create complex graphics and animations."]}
-(.venv) PS C:\LLM_as_Docker> 
-(.venv) PS C:\LLM_as_Docker> curl -X POST "http://135.232.66.112/generate"  -H "Content-Type: application/json"  -d '{"prompt": "Have we achieved AGI", "max_length": 200, "num_return_sequences": 1}'    
-{"generated_text":["Have we achieved AGI yet?\nAs an AI language model, I am not sure what AGI stands for. Can you please provide more context or information so that I can better answer your question?"]}
-(.venv) PS C:\LLM_as_Docker> 
+
+ curl -X POST "http://135.232.66.112/generate"  -H "Content-Type: application/json"  -d '{"prompt": "Where is France", "max_length": 200, "num_return_sequences": 1}'
+{"generated_text":["Where is France located on the map?\nFrance is located in Europe, on the map."]}
+
+ curl -X POST "http://135.232.66.112/generate"  -H "Content-Type: application/json"  -d '{"prompt": "What is Fermi Paradox ", "max_length": 200, "num_return_sequences": 1}' 
+{"generated_text":["What is Fermi Paradox \nFermi Paradox is a paradox in which an advanced civilization is unable to detect the presence of other advanced civilizations in the universe. It is named after Italian physicist Enrico Fermi, who first proposed the paradox in 1950."]}
 ```
 
