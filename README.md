@@ -234,6 +234,12 @@ Test the endpoint as described above.
 
 You have successfully set up and deployed the Falcon-7B-Instruct model for inference. This setup is scalable, supports GPU acceleration, and can be easily integrated into production workflows.
 
+## Images
+
+![GPU Node Pool](GPU_node_pool.png)
+![GPU Node Pool](GPU_node_pool1.png)
+![GPU Node Pool Running Falcon LLM](GPU_node_pool-running-falcom.png)
+
 
 ### LOGS
 
@@ -317,9 +323,3 @@ INFO:     10.224.0.4:19207 - "POST /generate HTTP/1.1" 200 OK
 (.venv) PS C:\LLM_as_Docker> 
 ```
 
-
-## Images
-
-![GPU Node Pool](GPU_node_pool.png)
-![GPU Node Pool](GPU_node_pool1.png)
-![GPU Node Pool Running Falcon LLM](GPU_node_pool-running-falcom.png)
